@@ -33,7 +33,7 @@ function testResult(questionArr, userAnswerArr = [], trueCounter = 0) {
     if (trueCounter === 5) {
         alert("Это вы вчера с Илоном катались на Роадстере?");
     } else if (trueCounter > 2 && trueCounter < 5) {
-        alert("Вы приянты в клуб поклонников Илона Маска");
+        alert("Вы приняты в клуб поклонников Илона Маска");
     } else {
         alert("Вы совершенно не знаете Илона");
     }
