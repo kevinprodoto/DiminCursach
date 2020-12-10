@@ -1,4 +1,6 @@
 body {
+    width: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
 
@@ -22,15 +24,52 @@ body {
     flex-grow: 1;
 }
 main {
+    box-sizing: border-box;
+    width: 100%;
     margin-top: 42px;
     position: absolute;
     padding:10px 10px 0 160px;
-    background: linear-gradient(45deg, #348F50, #56B4D3);
+    background: linear-gradient(150deg, #FFF,grey);
 }
 td {
     border: 1px solid black;
-
 }
+.main {
+    display: flex;
+}
+.main__pic-block {
+    display: flex;
+    padding: 20px;
+}
+.main__text-block{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.main__text-block a {
+    color:  #56B4D3;
+    text-decoration: none;
+}
+.main__text-block p:first-child {
+    margin: 0px !important;
+}
+.main__text-block p {
+    margin: 16px 0 !important;
+}
+.main__text-block div:last-child {
+    align-self: center;
+    margin: 48px;
+}
+.main__button {
+    height: 40px;
+    width: 120px;
+    margin: 0 auto;
+}
+.main__button:hover {
+    color: #56B4D3;
+    border-color: #56B4D3;
+}
+
 .Border {
     border-bottom: 1px solid black;
 }
